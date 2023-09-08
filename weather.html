@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(208, 252, 246);">
+    <center>
+        <div  class="col-5" style="background-color: aquamarine;margin-top: 90px;border-style: solid;">
+            <h1>Weather App</h1>
+            <br>
+            <input type="text" placeholder="enter the location" id="city">
+            <br><br>
+            <button onclick="search()"  style="border-radius: 10px;border-color: rgb(33, 179, 166);">show weather</button>
+        </div>
+        <div class="col-5" style="margin-top: 40px;background-color: rgb(58, 255, 255);padding-right: 50px;border-style: solid;">
+            <div >
+            
+                <p>TEMPERATURE: <span id="temp"></span></p>
+                <p>CITY NAME: <span id="name"></span></p>
+                
+            </div>
+            <div>
+                <p>PRESSURE:<span id="press"></span></p>
+                
+            </div>
+            <div>
+               
+                <p>WIND :<span id="wind"></span></p>
+            </div>
+            <div>
+                <p>HUMIDITY:<span id="hum"></span></p>
+               
+            </div>
+            <div>
+                <p>TIME ZONE:<span id="time"></span></p>
+               
+            </div>
+        </div>
+        
+    </center>
+
+    <script src="weather.js"></script>
+   
+</body>
+</html>
